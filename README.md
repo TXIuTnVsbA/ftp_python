@@ -2,29 +2,29 @@
 
 例如:
 
-  connect,192.168.137.2,2121
+	connect,192.168.137.2,2121
 	
-  login,qpyplus,qpyplus ========>send,user qpyplus;send,pass qpyplus
+	login,qpyplus,qpyplus
 	
-  ls============================>send,pasv;send,list
+	ls
 	
-  exit============================>send,quit;exit(0)
+	exit
 	
-  send,(command)
+	send,(command)
 	
-  例如:
+	例如:
 	
-    send,user qpyplus
+		send,user qpyplus
 		
-    send,pass qpyplus
+		send,pass qpyplus
 		
-    send,pasv =======>  遇到227返回数，自动创建并连接新的socket，并等待返回，返回成功时关闭连接
+		send,pasv
 		
-    send,pwd
+		send,pwd
 		
-    send,cwp /
+		send,cwp /
 		
-    ...............
+		...............
 		
 
 
