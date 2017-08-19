@@ -20,6 +20,8 @@
 		
 		send,pasv
 		
+		send,list
+		
 		send,pwd
 		
 		send,cwp /
